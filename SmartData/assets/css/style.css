@@ -3827,6 +3827,10 @@ section>.fw-container-fluid.rull-container {
   color: #0a2d43;
     font-size: 75px;
 }
+.technologies .single-row .single-item img {
+  height: 75px;
+  margin-top: -32px;
+}
 .technologies .single-row .single-item span {
   display: block;
   position: absolute;
