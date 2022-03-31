@@ -1555,12 +1555,12 @@ h6 {
 
 .btn__primary .icon-outlined {
   color: #0e2b3d;
-  border: 1px solid #47a145;
+  border: 1px solid #d7b680;
 }
 
 .btn__primary:active,
 .btn__primary:focus {
-  background-color: #47a145;
+  background-color: #d7b680;
   color: #ffffff;
 }
 
