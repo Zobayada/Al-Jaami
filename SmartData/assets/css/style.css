@@ -2966,13 +2966,17 @@ input[type=radio] {
 .header-transparent .action__btn-contact {
   background-color: #ffffff;
 }
-
 .header-transparent .action__btn-contact:hover {
-  color: #ffffff;
+  color: #fff;
+  background-color: #d7b680 !important;
+  border-color: #d7b680 !important;
+}
+.header-transparent .is-sticky .action__btn-contact:hover {
+  color: #063946;
 }
 
 .header-transparent .action__btn-contact:before {
-  background-color: #0e2b3d !important;
+  background-color: #063946 !important;
 }
 
 .header-transparent .logo-dark {
