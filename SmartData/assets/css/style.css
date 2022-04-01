@@ -7901,7 +7901,11 @@ section>.fw-container-fluid.rull-container {
 .service-item .service__content {
   padding: 50px;
 }
-
+.h-img{
+  height: 513px;
+  width: 770px;
+}
+}
 .service-item .service__icon {
   color: #063946;
   font-size: 70px;
