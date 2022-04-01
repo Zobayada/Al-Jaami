@@ -18,6 +18,136 @@
 </head>
 
 <body class="royal_preloader">
+
+
+  <style>
+    
+    .custom_btn{
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+    .meipaly_services_help {
+    position: relative;
+    background-color: #063946;
+    padding: 47px 50px 47px;
+    ;
+}
+
+.meipaly_services_help h4 {
+    font-size: 18px;
+    color: #ffffff;
+    letter-spacing: 0.72px;
+    text-transform: uppercase;
+    margin: 0 0 40px;
+}
+
+.meipaly_services_help p {
+    color: #aaaaaa;
+    margin: 0 0 25px;
+    padding-right: 5px;
+}
+
+.meipaly_services_help h2 {
+    font-size: 30px;
+    color: #ffffff;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    margin: 0 0 0;
+}
+
+.service ul li{
+  list-style: none;
+}
+
+.service ul li i {
+    color: #d7b680;
+    margin-right: 10px;
+    line-height: 36px;
+}
+
+.commonSection{
+    padding: 120px 0;
+    position: relative;
+}
+.commonSection .container{
+    position: relative;
+    z-index: 2;
+}
+
+.common_btn{
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    background: #d7b680;
+    color: #fff;
+    height: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 28px 45.5px;
+    display: inline-block;
+    line-height: .8;
+    letter-spacing: 1.6px;
+    position: relative;
+    outline: none;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+}
+.common_btn span {
+    position: relative;
+    z-index: 2;
+}
+.common_btn:after {
+    content: "";
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: #fff;
+    transition: all 0.4s ease-out;
+    -moz-transition: all 0.4s ease-out;
+    -webkit-transition: all 0.4s ease-out;
+    -ms-transition: all 0.4s ease-out;
+    -o-transition: all 0.4s ease-out;
+}
+.common_btn:hover:after{
+    width: 100%;
+}
+.common_btn:hover{
+    color: #000;
+}
+.ready {
+    background: url(../SmartData/assets/images/banners/1.jpg) no-repeat center center / cover;
+}
+
+.ready .sec_title {
+    margin: 0;
+}
+
+.ready .common_btn {
+    padding: 28px 42.5px;
+}
+
+.ready_2 {
+    background: url(../SmartData/assets/images/about/3.jpg) no-repeat center center / cover;
+}
+
+.ready_2 .sec_title {
+    margin: 0;
+}
+
+.ready_2 .common_btn {
+    padding: 28px 42.5px;
+    background: #fff;
+    color: #000;
+}
+
+  </style>
+
   <div class="wrapper">
     <!-- <div class="preloader">
       <div class="sk-cube-grid">
@@ -76,14 +206,14 @@
                 </ul><!-- /.dropdown-menu -->
               </li><!-- /.nav-item -->
               <li class="nav__item  has-dropdown">
-                <a href="service_details.html" class="dropdown-toggle nav__item-link">Services</a>
+                <a href="#" class="dropdown-toggle nav__item-link">Services</a>
                 <ul class="dropdown-menu ">
                   <li class="nav__item p-0">
                     <div class="row">
                       <div class="dropdown-menu-col">
                         <ul class="nav flex-column">
                           <li class="nav__item  has-dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Web Development</a>
+                            <a href="web_service_details.html"  class="dropdown-toggle nav__item-link">Web Development</a>
                             <ul class="dropdown-menu" style="
                             margin-left: 237px;
                             margin-top: -60px;
@@ -106,7 +236,7 @@
                             </ul><!-- /.dropdown-menu -->
                           </li>
                           <li class="nav__item  has-dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Graphics Design</a>
+                            <a href="graphic_service_details.html" class="dropdown-toggle nav__item-link">Graphics Design</a>
                             <ul class="dropdown-menu" style="    margin-left: 237px;
                             margin-top: -38px;">
                               <li class="nav__item">
@@ -133,7 +263,7 @@
                             </ul><!-- /.dropdown-menu -->
                           </li>
                           <li class="nav__item  has-dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">Content Writing
+                            <a href="content_service_details.html" class="dropdown-toggle nav__item-link">Content Writing
                               <i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i>
                             </a>
                             <ul class="dropdown-menu" style="margin-left: 237px; margin-top: -32px;"> 
@@ -158,7 +288,7 @@
                             </ul><!-- /.dropdown-menu -->
                           </li>
                           <li class="nav__item  has-dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">SEO & Digital Marketing
+                            <a href="seo_service_details.html" class="dropdown-toggle nav__item-link">SEO & Digital Marketing
                               <i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i>
                             </a>
                             <!-- <ul class="dropdown-menu" style="margin-left: 237px; margin-top: -32px;"> 
@@ -183,7 +313,7 @@
                             </ul> -->
                           </li>
                           <li class="nav__item  has-dropdown">
-                            <a href="#" data-toggle="dropdown" class="dropdown-toggle nav__item-link">App Development
+                            <a href="app_service_details.html" class="dropdown-toggle nav__item-link">App Development
                               <i class="icon icon-down-arrow1 elementskit-submenu-indicator"></i>
                             </a>
                             <!-- <ul class="dropdown-menu" style="margin-left: 237px; margin-top: -32px;"> 
@@ -247,302 +377,226 @@
       </nav><!-- /.navabr -->
     </header><!-- /.Header -->
 
-    <!-- ========================
-       page title 
-    =========================== -->
-    <section class="page-title page-title-layout6 text-center bg-overlay bg-overlay-gradient bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/6.jpg" alt="background"></div>
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="pagetitle__heading mb-0">FAQs</h1>
-          </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.page-title -->
+    <!-- ============================
+        Slider
+    ============================== -->
+    <section class="slider">
+        <div class="slide-item align-v-h bg-overlay bg-overlay-gradient" style="height: 410px;"> 
+          <div class="bg-img"><img src="assets/images/sliders/1.jpg" alt="slide img"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                 <h2 style="font-size: 54px;color: white;text-align:center">SERVICE DETAILS</h2>
+              </div><!-- /.col-xl-7 -->
+            </div><!-- /.row -->
+          </div><!-- /.container -->
+        </div><!-- /.slide-item -->
+    </section>
+    <!-- /.slider -->
 
-    <!-- ========================
-      Secondary Nav
-    =========================== -->
-    <section class="secondary-nav sticky-top py-0">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <nav class="nav nav-tabs justify-content-center">
-              <a href="about-us.html" class="nav__link">About Us</a>
-              <a href="why-us.html" class="nav__link">Why Choose Us</a>
-              <a href="leadership-team.html" class="nav__link">Leadership Team</a>
-              <a href="awards.html" class="nav__link">Awards & Recognition</a>
-              <a href="faqs.html" class="nav__link active">Help & FAQs</a>
-              <a href="careers.html" class="nav__link">Careers</a>
-            </nav>
-          </div><!-- /.col-12 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.Secondary Nav -->
+    <section class="service">
 
-    <!-- ======================
-       FAQ
-    ========================= -->
-    <section class="faq pt-130 pb-100">
-      <div class="container">
-        <div class="row" id="accordion">
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse1">
-                <a class="accordion__title" href="#">Which Plan Is Right For Me?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse1" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse2">
-                <a class="accordion__title" href="#">Do I have to commit to a contract?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse2" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item opened">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse3">
-                <a class="accordion__title" href="#">What Payment Methods Are Available?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse3" class="collapse show" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse4">
-                <a class="accordion__title" href="#">What if I pick the wrong plan?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse4" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse5">
-                <a class="accordion__title" href="#">Any contracts or commitments?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse5" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-          </div><!-- /.col-lg-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-6">
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse6">
-                <a class="accordion__title" href="#">What are my payment options?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse6" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse7">
-                <a class="accordion__title" href="#">How does the free trial work?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse7" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse8">
-                <a class="accordion__title" href="#">What Payment Methods Are Available?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse8" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse9">
-                <a class="accordion__title" href="#">How does the free trial work?</a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse9" class="collapse" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-            <div class="accordion-item opened">
-              <div class="accordion__header" data-toggle="collapse" data-target="#collapse10">
-                <a class="accordion__title" href="#">If I have questions, where can I find answers? </a>
-              </div><!-- /.accordion-item-header -->
-              <div id="collapse10" class="collapse show" data-parent="#accordion">
-                <div class="accordion__body">
-                  <p>With any financial product that you buy, it is important that you know you are getting the best
-                    advice from a reputable company as often</p>
-                </div><!-- /.accordion-item-body -->
-              </div>
-            </div><!-- /.accordion-item -->
-          </div><!-- /.col-lg-6 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.FAQ -->
-
-    <!-- =========================
-           Banner layout 4
-    =========================== -->
-    <section class="banner-layout4 py-0" style="background-color: #063946;">
-      <div class="bg-img"><img src="" alt="background"></div>
-      <div class="container-fluid px-0">
-        <div class="row row-no-gutter">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 background-banner d-flex">
-            <div class="bg-img"><img src="assets/images/banners/6.jpg" alt="banner"></div>
-            <div class="cta-banner bg-primary align-self-end">
-              <div class="cta__icon color-white"><i class="icon-developer"></i></div>
-              <h4 class="cta__title color-white">Since 1999</h4>
-              <p class="cta__desc color-white mb-25">Provide users with appropriate view and access to requests,
-                problems, changes,
-                contracts, solutions, and reports.</p>
-              <a href="#" class="btn btn__link btn__white btn__icon px-0">
-                <span>Find Your Solution</span> <i class="icon-arrow-right"></i>
-              </a>
-            </div><!-- /.cta-banner -->
-          </div><!-- /.col-xl-6 -->
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 fancybox-light">
-            <div class="inner-padding">
-              <div class="row">
-                <div class="col-12">
-                  <div class="heading heading-light mb-60">
-                    <h3 class="heading__title mb-30">Easy solutions for all difficult IT problems, keep business safe &
-                      ensure
-                      high availability.</h3>
-                  </div><!-- /.heading -->
-                </div>
-                <div class="col-sm-6">
-                  <!-- fancybox item #1 -->
-                  <div class="fancybox-item">
-                    <div class="fancybox__icon">
-                      <i class="icon-coding"></i>
-                    </div><!-- /.fancybox__icon -->
-                    <div class="fancybox__content">
-                      <h4 class="fancybox__title">Software Asset</h4>
-                      <p class="fancybox__desc">All aspects of your software assets including purchasing,
-                        deployment & maintenance.</p>
-                    </div><!-- /.fancybox-content -->
-                  </div><!-- /.fancybox-item -->
-                </div><!-- /.col-sm-6 -->
-                <div class="col-sm-6">
-                  <!-- fancybox item #2 -->
-                  <div class="fancybox-item">
-                    <div class="fancybox__icon">
-                      <i class="icon-programming2"></i>
-                    </div><!-- /.fancybox__icon -->
-                    <div class="fancybox__content">
-                      <h4 class="fancybox__title">Privileged Access</h4>
-                      <p class="fancybox__desc">Extend proven Tech best practices to HR, finance, and other service
-                        delivery areas.</p>
-                    </div><!-- /.fancybox-content -->
-                  </div><!-- /.fancybox-item -->
-                </div><!-- /.col-sm-6 -->
-                <div class="col-12">
-                  <div class="d-flex flex-wrap read-note">
-                    <div class="rating mb-10 mr-40">
-                      <i class="fas fa-star color-primary"></i>
-                      <i class="fas fa-star color-primary"></i>
-                      <i class="fas fa-star color-primary"></i>
-                      <i class="fas fa-star color-primary"></i>
-                      <i class="fas fa-star color-primary"></i>
+        <div class="container">
+            <div class="row">
+              <br>
+                <div class="col-md-8">
+                    <img src="..//SmartData/assets/images/about/2.jpg" alt="">
+                    <h2 class="mt-3"> WEB DEVELOPMENT</h2>
+                    <p style="font-size: 17px;">We provide practical marketing tools that generate a high return on investment. We are devoted to offering affordable, custom-designed packages that meet our customers' expectations.</p>
+                  
+                    <p style="font-size: 17px;">Our site designers and programmers are very creative and have years of expertise. They are strategic thinkers who are willing to work additional shifts.</p>
+                  
+                    <p style="font-size: 17px;">We think that to have a successful internet business, you must have an ideal combination of these three criteria. We seek to assist our clients in achieving the highest potential degree of online success by using our extensive knowledge in critical web design success areas. Our site designers and programmers are highly skilled and highly creative. They are strategic thinkers with a strong work ethic who are loyal to their clients and dependable, enabling us to keep our satisfaction guarantee policy and be proud of our good track record.</p>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="../SmartData/assets/images/about/4.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <h3>
+                                PLANNING & STRATEGY</h3>
+                            <p style="font-size: 17px;" class="mt-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p> 
+                            <br>
+                            <ul>
+                                <li><i class="fa fa-check-square"></i>Research beyond the business plan</li>
+                                <li><i class="fa fa-check-square"></i>Marketing options and rates</li>
+                                <li><i class="fa fa-check-square"></i>The ability to turnaround consulting</li>
+                                <li><i class="fa fa-check-square"></i>Help companies into more profitable</li>
+                                <li><i class="fa fa-check-square"></i>Customer engagement matters</li>
+                            </ul>   
+                        </div>
                     </div>
-                    <p class="read-note__text color-white">
-                      <span class="font-weight-bold text-underlined">99.9% Customer Satisfaction</span>
-                      based on 750+ reviews and 20,000 Objective Resource
+                    <br><br>
+                    <p style="font-size: 17px;">
+                        Need something changed or is there something not quite working the way you envisaged? Is your van a
+                        little old and tired and need refreshing? Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                        when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+                        It has survived not only five centuries, but also the leap into electronic typesetting,
+                        remaining essentially unchanged.
                     </p>
-                  </div>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
+                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 
+                        to make a type specimen book. It has survived not only five centuries, but also the leap into electronic 
+                        typesetting, remaining essentially unchanged.
+                    </p>
                 </div>
-              </div><!-- /.row -->
-            </div>
-          </div><!-- /.col-xl-6 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.Banner layout 4 -->
+                <div class="col-md-4">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="custom_btn btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Web Development
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <ul>
+                                <li>
+                                  <a href="">Web Design</a>
+                                </li>
+                                <li class="nav__item">
+                                  <a href="blog-single-post.html" class="nav__item-link">Web Application</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-grid.html" class="nav__item-link">Mobbile App Development</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-carousel.html" class="nav__item-link">Ecommerce Development</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-classic.html" class="nav__item-link">CMS Development</a>
+                                </li><!-- /.nav-item -->
+                              
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="custom_btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Graphics Design
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body">
+                              <ul>
+                                <li class="nav__item">
+                                  <a href="blog.html" class="nav__item-link">Brand Design</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="blog-single-post.html" class="nav__item-link">Logo Design</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-grid.html" class="nav__item-link">UIUX Design</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-carousel.html" class="nav__item-link">Social Media Design</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-classic.html" class="nav__item-link">Packaging Design</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-single.html" class="nav__item-link">Cover Design</a>
+                                </li><!-- /.nav-item -->
+                                <li class="nav__item">
+                                  <a href="case-studies-single.html" class="nav__item-link">Video Production</a>
+                                </li><!-- /.nav-item -->
+                            </ul>
+                            </div>
+                          </div>
+                        </div>
+                          <div class="card">
+                            <div class="card-header" id="headingThree">
+                              <h2 class="mb-0">
+                                <button class="custom_btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  Content Writing
+                                </button>
+                              </h2>
+                            </div>
+                              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                  <div class="card-body">
 
-    <!-- ========================
-      About Layout 5
-    =========================== -->
-    <section class="about-layout2 animated-Progressbars">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
-            <div class="heading mb-30">
-              <div class="d-flex align-items-center mb-20">
-                <div class="divider divider-primary mr-30"></div>
-                <h2 class="heading__subtitle mb-0">Timely Service Delivery &amp; Incident Resolutions!! </h2>
-              </div>
-              <h3 class="heading__title mb-40">Manages service delivery across various business like, HR, Legal and
-                other IT departments!!
-              </h3>
+                                        <ul>
+                                            <li class="nav__item">
+                                              <a href="blog.html" class="nav__item-link">E-books</a>
+                                            </li><!-- /.nav-item -->
+                                            <li class="nav__item">
+                                              <a href="blog-single-post.html" class="nav__item-link">Artical Marketing</a>
+                                            </li><!-- /.nav-item -->
+                                            <li class="nav__item">
+                                              <a href="case-studies-grid.html" class="nav__item-link">Blog Content</a>
+                                            </li><!-- /.nav-item -->
+                                            <li class="nav__item">
+                                              <a href="case-studies-carousel.html" class="nav__item-link">Business Webpage</a>
+                                            </li><!-- /.nav-item -->
+                                            <li class="nav__item">
+                                              <a href="case-studies-classic.html" class="nav__item-link">Marketing Collateral</a>
+                                            </li><!-- /.nav-item -->
+                                            <li class="nav__item">
+                                              <a href="case-studies-single.html" class="nav__item-link">Email Marketing Campagins</a>
+                                            </li><!-- /.nav-item -->
+                                        </ul>
+                                  </div>
+                              </div>
+                          </div>
+
+                         
+                          <div class="card">
+                              <div class="card-header" id="headingfour">
+                                <h2 class="mb-0">
+                                  <button class="custom_btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    SEO & Digital Marketing
+                                  </button>
+                                </h2>
+                              </div>
+                          </div>
+
+
+                          <div class="card">
+                              <div class="card-header" id="headingfour">
+                                <h2 class="mb-0">
+                                  <button class="custom_btn  btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                     App Development
+                                  </button>
+                                </h2>
+                              </div>
+                          </div>
+                        
+
+                      </div>
+                      <aside class="mt-4 categories">
+                        <div class="meipaly_services_help">
+                            <h4>need webpixal help?</h4>
+                            <p>Prefer speaking with a human to filling out a form? call corporate office and we will connect you with a team member who can help.</p>
+                            <h2>666 888 000</h2>
+                        </div>
+                    </aside>
+
+                </div>
             </div>
-          </div><!-- /.col-xl-5 -->
-        </div><!-- /.row -->
-        <div class="row about__Text">
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1">
-            <i class="icon-quote"></i>
-            <p>SmartData has been helping organizations throughout the World to manage their IT with our unique approach
-              to technology management and consultancy solutions. Provide users with appropriate view and access
-              permissions to requests, problems, changes, contracts, assets, solutions, and reports </p>
-              <h5 class="text-dark mb-20">N. Ahamed</h5>
+        </div>
+    </section>
+
+
+    <section class="commonSection ready">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-9 col-sm-8 col-md-9">
+                  <h2 class="sec_title text-white">Let's Get Your Project Started!</h2>
+              </div>
+              <div class="col-lg-3  col-sm-4 col-md-3 text-right">
+                  <a class="common_btn" href="contact.html"><span>Contact with us</span></a>
+              </div>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-5 offset-xl-1">
-            <p class="mb-40">As one of the world's largest ITService Providers, our deep pool of certified engineers and
-              IT staff are ready to help you to keep your IT business safe & ensure high availability.</p>
-            <!-- progress 1 -->
-            <div class="progress-item">
-              <h5 class="progress__title">Cyber Security</h5>
-              <div class="progress">
-                <div class="progress-bar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  <span class="progress__percentage"></span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.progress-item  -->
-            <!-- progress 2 -->
-            <div class="progress-item">
-              <h5 class="progress__title">Cloud Computing</h5>
-              <div class="progress">
-                <div class="progress-bar" aria-valuenow="87" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  <span class="progress__percentage"></span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.progress-item  -->
-            <!-- progress 3 -->
-            <div class="progress-item">
-              <h5 class="progress__title">Cloud Computing</h5>
-              <div class="progress">
-                <div class="progress-bar" aria-valuenow="81" aria-valuemin="0" aria-valuemax="100" role="progressbar">
-                  <span class="progress__percentage"></span>
-                </div>
-              </div><!-- /.progress -->
-            </div><!-- /.progress-item  -->
-          </div><!-- /.col-xl-5 -->
-        </div><!-- /.row -->
-      </div><!-- /.container -->
-    </section><!-- /.About Layout 5 -->
+      </div>
+  </section>
 
     <!-- ========================
       Footer
@@ -553,7 +607,7 @@
           <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-3 footer-widget footer-widget-about">
               <div class="footer-widget__content">
-                <img src="assets/images/logo/Asset 8.svg" alt="logo">
+                <img src="assets/images/logo/Asset 8.svg" alt="logo" >
                 <p class="mt-3">Privacy, Terms & Conditions</p>
               </div><!-- /.footer-widget__content -->
             </div><!-- /.col-xl-3 -->
