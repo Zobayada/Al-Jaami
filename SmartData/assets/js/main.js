@@ -280,3 +280,7 @@ $(function () {
         e.preventDefault();
     });
 });
+
+
+/*==========   Data Counter  ==========*/
+
