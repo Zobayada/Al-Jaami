@@ -4012,7 +4012,11 @@ section>.fw-container-fluid.rull-container {
   height: 180px;
   margin-left: 8%;
 }
-
+@media (max-width: 991px){
+  .footer-widget__content img{
+    margin-left: 0%;
+  }
+}
 .footer .social-icons li {
   margin-right: 25px;
 }
