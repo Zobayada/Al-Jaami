@@ -7888,6 +7888,10 @@ section>.fw-container-fluid.rull-container {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
+.service .image img{
+  height: 370px;
+  width: 370px;
+}
 
 .service-item:not(.service-item-custom) .btn {
   height: 40px;
