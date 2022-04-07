@@ -1085,6 +1085,68 @@ select {
   background-color: rgba(71, 161, 69, 0.8);
 }
 
+
+.icon_box_2 h3 {
+  font-size: 20px;
+  letter-spacing: .80px;
+  color: #063946;
+  line-height: 32px;
+  text-transform: uppercase;
+  margin: 0 0 35px;
+}
+.icon_box_2 p {
+  margin: 0 0 31px;
+}
+.icon_box_2 .iconWrap {
+  position: relative;
+  margin: 0 0 44px;
+}
+.icon_box_2 .iconWrap i {
+  font-size: 64px;
+  font-style: normal;
+  color: #063946;
+  display: inline-block;
+  margin: 0 0 0;
+}
+.icon_box_2 .iconWrap:after {
+  background: url(./assets/images/icons/shadow.png) no-repeat center center / cover;
+  height: 7px;
+  width: 75px;
+  position: absolute;
+  content: '';
+  left: 0;
+  right: 0;
+  bottom: -17px;
+  margin: 0 auto;
+  z-index: 2;
+}
+.icon_box_2 a {
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: 1.2px;
+  color: #000;
+  line-height: .8;
+  text-transform: uppercase;
+  margin: 0;
+}
+.icon_box_2:after {
+  width: 4px;
+  height: 0;
+  position: absolute;
+  content: '';
+  right: -1px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  content: '';
+  background:#d7b680;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 3;
+  transition: all ease 500ms;
+  -moz-transition: all ease 500ms;
+  -webkit-transition: all ease 500ms;
+}
 /*-------------------------
    Typography
 --------------------------*/
@@ -3904,6 +3966,7 @@ section>.fw-container-fluid.rull-container {
   color: #063946;
 }
 
+
 /*-------------------------
     Footer
 --------------------------*/
@@ -3926,6 +3989,11 @@ section>.fw-container-fluid.rull-container {
   text-transform: capitalize;
   margin-bottom: 35px;
 }
+.footer .footer-widget .nav__item img{
+  width: 50px;
+  height: 50px;
+}
+
 
 .footer .contact-list li {
   line-height: 26px;
