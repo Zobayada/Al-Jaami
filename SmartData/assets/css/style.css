@@ -8100,7 +8100,7 @@ section>.fw-container-fluid.rull-container {
 }
 
 .services-carousel {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 .services-carousel .slick-list {
